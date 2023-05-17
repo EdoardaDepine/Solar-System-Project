@@ -1,0 +1,21 @@
+.missionCard {
+  color: white;
+  border: solid white;
+  border-width: 0.1px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.661);
+  width: 250px;
+  height: 180px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.missionName {
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+}
+
+.missionInfos {
+  padding-left: 10px;
+}

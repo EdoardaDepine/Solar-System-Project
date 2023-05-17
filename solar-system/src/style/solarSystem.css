@@ -1,0 +1,11 @@
+.solarSystem {
+  display: flex;
+  flex-direction: column;
+}
+
+.planetsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

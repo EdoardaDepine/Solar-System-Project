@@ -1,0 +1,11 @@
+.missions {
+  display: flex;
+  flex-direction: column;
+}
+
+.missionsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+}
