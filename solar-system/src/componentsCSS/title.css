@@ -1,3 +1,21 @@
+.containerTitle {
+  border: solid;
+  border-radius: 10px;
+  border-width: 0.1px;
+  border-color: white;
+  background-color: black;
+  opacity: 0.5;
+  width: 800px;
+  height: 50px;
+  margin: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
 .title {
   color: white;
+  font-weight: 400;
+  font-size: 25px;
 }
