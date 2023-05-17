@@ -5,16 +5,12 @@ class PlanetCard extends React.Component {
   render() {
     const { planetName, planetImage } = this.props;
     return (
-      <div data-testid='planet-card'>
-        <img src={planetImage} alt={planetName} />
-        <p data-testid='planet-name' className='planet-name'>
-          {planetName}
-        </p>
+      <div className='planetCard'>
+        <img width='100' src={planetImage} alt={`Planeta ${planetName}`} />
+        <p className='planetName'>{planetName}</p>
       </div>
     );
   }
 }
 
 export default PlanetCard;
-
-//faltando renderizar "Planeta" no alt da tag img

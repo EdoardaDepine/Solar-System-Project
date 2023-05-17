@@ -1,3 +1,8 @@
-.planet-name {
+.planetCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.planetName {
   color: white;
 }
